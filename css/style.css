@@ -191,9 +191,9 @@ a:focus {
     font-size: 40px;
     color: #fff;
     background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+    -webkit-transition: background 2s ease-in-out;
+    -moz-transition: background 2s ease-in-out;
+    transition: background 2s ease-in-out;
 }
 
 .btn-circle:hover,
@@ -255,12 +255,16 @@ a:focus {
     }
 }
 
+.scroll-btn {
+    /*margin-top:100px;*/
+}
+
 .about-section {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .skill-section{
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .skillset {

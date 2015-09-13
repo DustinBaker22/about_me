@@ -1,6 +1,14 @@
 // Scroll Reveal.js load
 window.sr = new scrollReveal();
 
+// Scroll Reveal.js reset
+var config = {
+    reset: true
+};
+
+
+
+
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
